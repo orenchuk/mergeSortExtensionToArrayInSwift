@@ -55,3 +55,11 @@ extension Array where Element: Comparable {
 
 }
 ```
+And now it works like:
+
+```swift
+var newArray = [1, 3, 2, 5, 4, 8, 9 ,11]
+
+newArray.mergeSort()
+// [1, 2, 3, 4, 5, 8, 9, 11]
+```
